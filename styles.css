@@ -1,0 +1,12 @@
+.french-flag {
+    position: relative;
+}
+
+.flag-icon {
+    position: absolute;
+    left: -35px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; 
+    height: auto;
+}
