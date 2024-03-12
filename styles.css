@@ -1,12 +1,14 @@
-.french-flag {
-    position: relative;
+.flag-icon {
+    position:relative ;
+    width: 4em;
+    height: 2.5em;
+    margin-right: 10px;
 }
 
-.flag-icon {
-    position: absolute;
-    left: -35px; 
-    top: 50%;
-    transform: translateY(-50%);
-    width: 30px; 
-    height: auto;
+.selected {
+  background-color: darkgrey;
+}
+
+iframe {
+  margin: 20px;
 }
