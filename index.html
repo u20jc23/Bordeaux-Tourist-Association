@@ -9,32 +9,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-md bg-body-secondary">
+<body class="container bg-tertiary-custom">
+  <nav class="navbar navbar-expand-md bg-primary-custom my-2">
     <div class="container-fluid">
       <img src="images\french-flag.png" alt="French Flag" class="flag-icon">
       <div class="navbar-brand french-flag">
-        <a class="navbar-brand" href="index.html">Bordeaux Tourism Association</a>
+        <a class="navbar-brand text-light" href="index.html">Bordeaux Tourism Association</a>
       </div>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" href="index.html">Home</a>
-          <a class="nav-link" href="history.html">History</a>
-          <a class="nav-link" href="visit.html">Visit</a>
+          <a class="nav-link active text-light" href="index.html">Home</a>
+          <a class="nav-link text-light" href="history.html">History</a>
+          <a class="nav-link text-light" href="visit.html">Visit</a>
         </div>
       </div>
     </div>
   </nav>
-  <div class="banner">
-    <div class="container">
-      <h1 class="display-4">Welcome to Bordeaux</h1>
-      <p class="lead">Experience the charm of our historic town.</p>
-      <hr class="my-4">
-      <p>Bordeaux, located in southwestern France, is renowned for its wine, culture, and architecture. Explore our city and discover its rich history and vibrant atmosphere.</p>
-      <a class="btn btn-primary btn-lg" href="visit.html" role="button">Plan Your Visit</a>
+  <header class="container header">
+    <iframe width="275" height="175" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.7559981867544031%2C44.78475590845765%2C-0.48957972972315306%2C44.93029032218101&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+    <div class="container-fluid bg-banner-custom text-banner-custom py-3 my-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="display-4">Bordeaux</h1>
+            <p class="lead">Founded in 56 BC | "Lilia sola regunt lunam undas castra leonem"</p>
+            <p class="lead">"The fleur-de-lis alone rules over the moon, the waves, the castle, and the lion"</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.7559981867544031%2C44.78475590845765%2C-0.48957972972315306%2C44.93029032218101&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+    
+  </header>
 </body>
 
 </html>

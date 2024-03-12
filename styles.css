@@ -9,11 +9,50 @@
   background-color: darkgrey;
 }
 
-iframe {
-  margin: 20px;
-}
 
 .nav-link.active {
     font-weight: bold;
     color: red; /* Change color as needed */
+}
+
+
+.bg-primary-custom {
+  background-color: #8B0000; /* Bordeaux Red */
+}
+
+.text-primary-custom {
+  color: #8B0000; /* Bordeaux Red */
+}
+
+.bg-secondary-custom {
+  background-color: #F0F0F0; /* Light Grey */
+}
+
+.text-secondary-custom {
+  color: #333; /* Light Grey */
+}
+
+.bg-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
+}
+
+.text-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
+}
+
+.bg-banner-custom {
+      background-color: #E63946; /* Alizarin Crimson */
+    }
+
+.text-banner-custom {
+  color: #FFF; /* White */
+}
+
+.header{
+  float: left;
+}
+
+iframe {
+  margin: 20px;
+  float: left;
 }
