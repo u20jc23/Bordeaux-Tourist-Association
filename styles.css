@@ -12,3 +12,8 @@
 iframe {
   margin: 20px;
 }
+
+.nav-link.active {
+    font-weight: bold;
+    color: red; /* Change color as needed */
+}
