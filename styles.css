@@ -20,9 +20,10 @@
     font-weight: bold;
 }
 
-.bg-banner-custom {
+.banner {
       background-color: rgba(230, 57, 70, 0.8);
       border-radius: 10px;
+        color: #FFF;
 }
 
 
@@ -52,8 +53,5 @@ iframe {
 }
 .text-tertiary-custom {
   background-color: #F7EDE2; /* Light Beige */
-}
-.text-banner-custom {
-  color: #FFF;
 }
 
