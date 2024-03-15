@@ -26,8 +26,6 @@
         color: #FFF;
 }
 
-
-
 iframe {
   margin: 20px;
   float: left;
@@ -41,7 +39,7 @@ iframe {
   background-color: #F0F0F0; 
 }
 .bg-tertiary-custom {
-  background-color: #F7EDE2; /* Light Beige */
+  background-color: #F7EDE2; 
 }
 
 
@@ -49,9 +47,15 @@ iframe {
   color: #8B0000; 
 }
 .text-secondary-custom {
-  color: #333; /* Light Grey */
+  color: #333; 
 }
 .text-tertiary-custom {
-  background-color: #F7EDE2; /* Light Beige */
+  background-color: #F7EDE2; 
 }
 
+.navbar-nav .nav-link:hover {
+  color: #490303 !important;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
