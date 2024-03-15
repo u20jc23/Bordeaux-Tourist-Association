@@ -1,8 +1,8 @@
 
-body {
-  background-image: url(images/bordeaux-bg.jpg);
+.home {
+  background-image: url(images/bdx-1.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   height: fit-content;
 }
 
@@ -15,33 +15,45 @@ body {
     float: left;
 }
 
-.container{
-  line-height: 1.5;
-}
 
 .nav-link.active {
     font-weight: bold;
-    color: red; 
 }
 
 .bg-banner-custom {
       background-color: rgba(230, 57, 70, 0.8);
       border-radius: 10px;
-    }
-
-
-
-.header{
-  float: left;
 }
+
+
 
 iframe {
   margin: 20px;
   float: left;
+  border-radius: 10px;
+}
+
+.bg-primary-custom {
+  background-color: #8B0000; 
+}
+.bg-secondary-custom {
+  background-color: #F0F0F0; 
+}
+.bg-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
 }
 
 
-
-.french-flag {
-  overflow: hidden;
+.text-primary-custom {
+  color: #8B0000; 
 }
+.text-secondary-custom {
+  color: #333; /* Light Grey */
+}
+.text-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
+}
+.text-banner-custom {
+  color: #FFF;
+}
+
