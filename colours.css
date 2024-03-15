@@ -1,0 +1,31 @@
+.bg-primary-custom {
+  background-color: #8B0000; 
+}
+
+.text-primary-custom {
+  color: #8B0000; 
+}
+
+.bg-secondary-custom {
+  background-color: #F0F0F0; 
+}
+
+.text-secondary-custom {
+  color: #333; /* Light Grey */
+}
+
+.bg-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
+}
+
+.text-tertiary-custom {
+  background-color: #F7EDE2; /* Light Beige */
+}
+
+.selected {
+  background-color: darkgrey;
+}
+
+.text-banner-custom {
+  color: #FFF;
+}

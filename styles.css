@@ -1,52 +1,35 @@
+
+body {
+  background-image: url(images/bordeaux-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+
+
 .flag-icon {
     position:relative ;
     width: 4em;
     height: 2.5em;
     margin-right: 10px;
+    float: left;
 }
 
-.selected {
-  background-color: darkgrey;
+.container{
+  line-height: 1.5;
 }
-
 
 .nav-link.active {
     font-weight: bold;
-    color: red; /* Change color as needed */
-}
-
-
-.bg-primary-custom {
-  background-color: #8B0000; /* Bordeaux Red */
-}
-
-.text-primary-custom {
-  color: #8B0000; /* Bordeaux Red */
-}
-
-.bg-secondary-custom {
-  background-color: #F0F0F0; /* Light Grey */
-}
-
-.text-secondary-custom {
-  color: #333; /* Light Grey */
-}
-
-.bg-tertiary-custom {
-  background-color: #F7EDE2; /* Light Beige */
-}
-
-.text-tertiary-custom {
-  background-color: #F7EDE2; /* Light Beige */
+    color: red; 
 }
 
 .bg-banner-custom {
-      background-color: #E63946; /* Alizarin Crimson */
+      background-color: rgba(230, 57, 70, 0.8);
+      border-radius: 10px;
     }
 
-.text-banner-custom {
-  color: #FFF; /* White */
-}
+
 
 .header{
   float: left;
@@ -55,4 +38,10 @@
 iframe {
   margin: 20px;
   float: left;
+}
+
+
+
+.french-flag {
+  overflow: hidden;
 }
