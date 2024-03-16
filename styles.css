@@ -1,11 +1,8 @@
-
 .home {
-  background-image: url(images/bdx-1.jpg);
+  background-image: url(images/bdx-1-blurred.jpg);
   background-size: cover;
-  background-repeat:repeat-y;
-  height: fit-content;
+  background-repeat:no-repeat;
 }
-
 
 .flag-icon {
     position:relative ;
@@ -15,47 +12,36 @@
     float: left;
 }
 
-
-.nav-link.active {
-    font-weight: bold;
-}
-
-.banner {
-      background-color: rgba(230, 57, 70, 0.8);
-      border-radius: 10px;
-        color: #FFF;
-}
-
-iframe {
-  margin: 20px;
-  float: left;
-  border-radius: 10px;
-}
-
-.bg-primary-custom {
-  background-color: #8B0000; 
-}
-.bg-secondary-custom {
-  background-color: #F0F0F0; 
-}
-.bg-tertiary-custom {
-  background-color: #F7EDE2; 
-}
-
-
-.text-primary-custom {
-  color: #8B0000; 
-}
-.text-secondary-custom {
-  color: #333; 
-}
-.text-tertiary-custom {
-  background-color: #F7EDE2; 
-}
-
 .navbar-nav .nav-link:hover {
   color: #490303 !important;
   background-color: rgba(255, 255, 255, 0.1); 
   border-radius: 0.25rem;
   transition: all 0.3s ease;
+}
+
+.bg-pr {
+  background-color: rgba(140, 0, 0, 0.8); 
+}
+.bg-sc {
+  background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+.container .title {
+  font-size: 2.5em;
+}
+
+.hide-bg {
+  mix-blend-mode: multiply;
+}
+
+.grape-widget {
+  height: 10em;
+  width: 10em;
+  position: relative;
+}
+
+.bottle-widget {
+  height: 10em;
+  width: 7em;
+  position: relative;
 }

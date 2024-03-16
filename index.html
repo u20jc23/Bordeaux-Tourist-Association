@@ -10,8 +10,8 @@
 </head>
 
 <body class="bg-tertiary-custom home">
-
-  <nav class="container navbar navbar-expand-sm bg-primary-custom my-3 rounded">
+  
+  <nav class="container navbar navbar-expand-sm bg-pr my-3 rounded">
     <div class="container-fluid">
       <img src="images\french-flag.png" alt="French Flag" class="img-fluid flag-icon mx-2">
       <a class="navbar-brand text-light" href="#">Bordeaux Tourism Association</a>
@@ -20,35 +20,62 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link text-light active" href="index.html">Home</a>
+          <a class="nav-link text-light fw-bold" href="index.html">Home</a>
           <a class="nav-link text-light" href="history.html">History</a>
           <a class="nav-link text-light" href="visit.html">Visit</a>
         </div>
       </div>
     </div>
   </nav>
-
-
-  <div class="container">
-    <div class="row banner">
-      <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-        <iframe width="95%" height="175" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.7559981867544031%2C44.78475590845765%2C-0.48957972972315306%2C44.93029032218101&amp;layer=mapnik" style="border: 1px solid black"></iframe>
-      </div>
-      <div class="col-md-6 col-lg-8">
-        <div class="container-fluid py-3 my-2">
-          <div class="container">
-            <div class="text-center">
-              <h1 class="display-4">Bordeaux</h1>
-              <p class="lead"><i>Founded in 56 BC | "Lilia sola regunt lunam undas castra leonem"</i></p>
-              <p class="lead">"The fleur-de-lis alone rules over the moon, the waves, the castle, and the lion"</p>
-            </div>
+  
+  <div class="container bg-sc">
+      <div class="row">
+          <div class="col-md-2">
+            <img src="images\grape.jpg" alt="grape widget" class="hide-bg img-fluid grape-widget">
           </div>
+          <div class="col-md-8 text-center my-2">
+              <h2 class="title">Bordeaux</h2>
+              <p><i>Founded in 56 BC | "Lilia sola regunt lunam undas castra leonem"</i></p>
+              <p>"The fleur-de-lis alone rules over the moon, the waves, the castle, and the lion"</p>
+          </div>
+          <div class="col-md-2">
+            <img src="images\bottle.jpg" alt="grape widget" class="hide-bg img-fluid bottle-widget">
+          </div>
+      </div>
+  </div>
+
+  <section class="container bg-sc my-3 rounded text-light">
+    <h2 class="text-center title my-3">About Bordeaux</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <p>Bordeaux is a magnificant city located in the south west of France in the Nouvelle Aquitaine Region. It is renowned for its stunning architecture, rich history, and world-class wine production. Nestled along the Garonne River, Bordeaux boasts a vibrant cultural scene, with numerous museums, galleries, and theaters.</p>
+        <p>Bordeaux's historic center, a UNESCO World Heritage site, is a testament to its illustrious past. Visitors can explore medieval streets, elegant squares, and iconic landmarks such as the Place de la Bourse and the Bordeaux Cathedral.</p>
+        <p>Furthermore, Bordeaux is famous for its prestigious wine industry, with vineyards stretching across the picturesque countryside. Wine enthusiasts can indulge in tastings at local châteaux and learn about the region's winemaking traditions.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/theatre.jpg" class="img-fluid my-3 rounded" alt="Bordeaux City">
+      </div>
+    </div>
+  </section>
+
+  <footer class="container bg-pr text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h5>More About Bordeaux</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/bordeauxmaville" target="_blank">Facebook</a></li>
+            <li><a href="https://x.com/Bordeaux?s=20" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/villedebordeaux/" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Map</h5>
+          <iframe class="rounded float-start" width="95%" height="175" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.7559981867544031%2C44.78475590845765%2C-0.48957972972315306%2C44.93029032218101&amp;layer=mapnik" style="border: 1px solid black"></iframe>
         </div>
       </div>
     </div>
-  </div>
-  
-  
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
