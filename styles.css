@@ -4,6 +4,12 @@
   background-repeat:no-repeat;
 }
 
+.history {
+  background-image: url(images/bdx-2.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
 .flag-icon {
     position:relative ;
     width: 4em;
